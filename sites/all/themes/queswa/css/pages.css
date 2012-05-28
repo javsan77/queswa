@@ -45,6 +45,8 @@ body {
  */
 
 #header {
+  background-image: url('../images/cabecera.png');
+  height: 236px;
 }
 
 #logo { /* Wrapping link for logo */
@@ -89,6 +91,7 @@ body {
  */
 
 #main {
+  padding-top: 4em;
 }
 
 /*

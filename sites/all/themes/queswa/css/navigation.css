@@ -40,6 +40,8 @@ li a.active {
 
 #navigation {
   /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
+  background: url('../images/fondo_menu_sup.png') repeat-x;
+  height: 65px;
 }
 
 #navigation .block {
@@ -65,11 +67,22 @@ li a.active {
 
 #navigation ul.links li,
 #navigation ul.menu li { /* A simple method to get navigation links to appear in one line. */
-  float: left; /* LTR */
+  /* float: left; /* LTR */
   padding: 0 10px 0 0; /* LTR */
   list-style-type: none;
   list-style-image: none;
 }
+
+#navigation ul.links {
+ padding-left: 350px;
+}
+
+
+#navigation ul.links li a {
+  color: white;
+  text-decoration: none;
+}
+
 
 .region-navigation {
 }
@@ -79,6 +92,7 @@ li a.active {
  */
 
 #main-menu {
+  margin-top: 18px;
 }
 
 #secondary-menu {
